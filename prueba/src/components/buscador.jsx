@@ -7,9 +7,9 @@ function Buscar(props) {
     for(let i = 0; i < db.length; i++){
         db[i].name = db[i].name.toUpperCase();
     }
-    
+
     const nombre = db.filter(find => find.name.includes(props.buscar));
-    const lista = nombre.map( person => (<li>{person.name}</li>) );
+    const lista = nombre.map( person => (<li key={person.id}>{person.name}</li>) );
 
     return (
         <div>

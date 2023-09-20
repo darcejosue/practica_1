@@ -21,7 +21,7 @@ export const db = [
     powers: ["Million tonne punch", "Damage resistance", "Superhuman reflexes"],
   },
   {
-    id: 45,
+    id: 48,
     name: "Jadeo",
     age: 39,
     secretIdentity: "Jane Wilson",
