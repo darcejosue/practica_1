@@ -13,4 +13,18 @@ export const db = [
     secretIdentity: "Jane Wilson",
     powers: ["Million tonne punch", "Damage resistance", "Superhuman reflexes"],
   },
+  {
+    id: 45,
+    name: "Josue Uppercut",
+    age: 39,
+    secretIdentity: "Jane Wilson",
+    powers: ["Million tonne punch", "Damage resistance", "Superhuman reflexes"],
+  },
+  {
+    id: 45,
+    name: "Jadeo",
+    age: 39,
+    secretIdentity: "Jane Wilson",
+    powers: ["Million tonne punch", "Damage resistance", "Superhuman reflexes"],
+  },
 ];

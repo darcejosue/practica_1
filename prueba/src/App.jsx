@@ -6,9 +6,11 @@ import Buscar from './components/buscador'
 
 function App() {
 
-  const [palabra, setPalabra] = useState(" ")
+  const [palabra, setPalabra] = useState("")
   const handleSearsh = (e) =>{
-    setPalabra(e.target.value)
+    const minuscula = e.target.value;
+    
+    setPalabra(minuscula.toUpperCase())
   }
 
   return (
